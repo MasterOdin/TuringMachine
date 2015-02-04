@@ -1,7 +1,7 @@
 Turing Machine Emulators
 ==========================
 
-This repository will hold [Turing Machine](http://en.wikipedia.org/wiki/Turing_machine) emulators in a variety of languages. Implementations will probably be different between the languages (in both features and the underlying data structures).
+This repository will hold [Turing Machine](http://en.wikipedia.org/wiki/Turing_machine) emulators in a variety of languages. Implementations will probably be different between the languages (in both features and the underlying data structures). Once I'm happy with a TM implementaiton, I'll move it to done, though this may mean it's less feature packed than some other language implementaiton.
 
 Done
 ----
@@ -10,7 +10,7 @@ Done
 
 In Progress
 -----------
-Python
+[Python](https://github.com/MasterOdin/tree/master/Python) - Runs through a TM in a cli. Reads in the TM details from a JSON file.  
 
 Planned
 -------

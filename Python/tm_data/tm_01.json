@@ -14,15 +14,10 @@
     "0",
     "1",
     "#",
-    "x"
+    "x",
+    "_"
   ],
   "blank": "_",
-  "alphabet": [
-    "0",
-    "1",
-    "#",
-    "x"
-  ],
   "transition_functions": [
     {
       "state": "1",

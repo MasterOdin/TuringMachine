@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+
 """
 Runs pylint on all contained python files in this directory, printint out
 nice colorized warnings/errors without all the other report fluff
