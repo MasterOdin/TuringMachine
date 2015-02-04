@@ -5,12 +5,12 @@ This repository will hold [Turing Machine](http://en.wikipedia.org/wiki/Turing_m
 
 Done
 ----
-[Processing](https://github.com/MasterOdin/tree/master/Processing) - Shows the tape state (and some other details) in a graphical pop-up during execution
+[Processing](https://github.com/MasterOdin/TuringMachine/tree/master/Processing) - Shows the tape state (and some other details) in a graphical pop-up during execution
 
 
 In Progress
 -----------
-[Python](https://github.com/MasterOdin/tree/master/Python) - Runs through a TM in a cli. Reads in the TM details from a JSON file.  
+[Python](https://github.com/MasterOdin/TuringMachine/tree/master/Python) - Runs through a TM in a cli. Reads in the TM details from a JSON file.  
 
 Planned
 -------
