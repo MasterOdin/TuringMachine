@@ -1,0 +1,46 @@
+Example M1: Will read in a string w and accept if the string to the left of the one # is the same as the string to the right of the #. Will reject otherwise.
+Example Inputs: 010#010 (accept), 111#111 (accept), 110#10 (reject), 011#011_ (accept)
+
+States:
+1 0 x r 2
+1 1 x r 3
+1 # # r 8
+2 0 0 r 2
+2 1 1 r 2
+2 # # r 4
+3 0 0 r 3
+3 1 1 r 3
+3 # # r 5
+4 x x r 4
+4 0 x l 6
+5 x x r 5
+5 1 x l 6
+6 0 0 l 6
+6 1 1 l 6
+6 x x l 6
+6 # # l 7
+7 0 0 l 7
+7 1 1 l 7
+7 x x r 1
+8 x x r 8
+8 _ _ r a
+
+Example M2: Reads in w and checks to see if # of 0s = 0^2^n | n >= 0.
+
+Example Inputs: 0000 (accepts), 000 (rejects), 0 (accepts), 00 (accepts), x0 (rejects)
+
+States:
+1 0 _ r 2
+1 _ _ r r
+2 x x r 2
+2 _ _ r a
+2 0 x r 3
+3 x x r 3
+3 0 0 r 4
+3 _ _ l 5
+4 x x r 4
+4 0 x r 3
+4 _ _ r r
+5 0 0 l 5
+5 x x l 5
+5 _ _ r 2

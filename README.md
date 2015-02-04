@@ -1,7 +1,7 @@
-Turning Machine Emulators
+Turing Machine Emulators
 ==========================
 
-This repository will hold [Turning Machine](http://en.wikipedia.org/wiki/Turing_machine) emulators in a variety of languages. Implementations will probably be different between the languages (in both features and the underlying data structures).
+This repository will hold [Turing Machine](http://en.wikipedia.org/wiki/Turing_machine) emulators in a variety of languages. Implementations will probably be different between the languages (in both features and the underlying data structures).
 
 Done
 ----
@@ -20,4 +20,4 @@ Lisp
 
 License
 -------
-This repository is under the MIT license which can be viewed in the [LICENSE](https://github.com/MasterOdin/TurningMachine/blob/master/LICENSE) file.
+This repository is under the MIT license which can be viewed in the [LICENSE](https://github.com/MasterOdin/TuringMachine/blob/master/LICENSE) file.

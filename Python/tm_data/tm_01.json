@@ -1,0 +1,186 @@
+{
+  "states": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "ACCEPT"
+  ],
+  "alphabet": [
+    "0",
+    "1",
+    "#",
+    "x"
+  ],
+  "blank": "_",
+  "alphabet": [
+    "0",
+    "1",
+    "#",
+    "x"
+  ],
+  "transition_functions": [
+    {
+      "state": "1",
+      "tape_symbol": "0",
+      "write_symbol": "x",
+      "move_tape": "R",
+      "next_state": "2"
+    },
+    {
+      "state": "1",
+      "tape_symbol": "1",
+      "write_symbol": "x",
+      "move_tape": "R",
+      "next_state": "3"
+    },
+    {
+      "state": "1",
+      "tape_symbol": "#",
+      "write_symbol": "#",
+      "move_tape": "R",
+      "next_state": "8"
+    },
+    {
+      "state": "2",
+      "tape_symbol": "0",
+      "write_symbol": "0",
+      "move_tape": "R",
+      "next_state": "2"
+    },
+    {
+      "state": "2",
+      "tape_symbol": "1",
+      "write_symbol": "1",
+      "move_tape": "R",
+      "next_state": "2"
+    },
+    {
+      "state": "2",
+      "tape_symbol": "#",
+      "write_symbol": "#",
+      "move_tape": "R",
+      "next_state": "4"
+    },
+    {
+      "state": "3",
+      "tape_symbol": "0",
+      "write_symbol": "0",
+      "move_tape": "R",
+      "next_state": "3"
+    },
+    {
+      "state": "3",
+      "tape_symbol": "1",
+      "write_symbol": "1",
+      "move_tape": "R",
+      "next_state": "3"
+    },
+    {
+      "state": "3",
+      "tape_symbol": "#",
+      "write_symbol": "#",
+      "move_tape": "R",
+      "next_state": "5"
+    },
+    {
+      "state": "4",
+      "tape_symbol": "x",
+      "write_symbol": "x",
+      "move_tape": "R",
+      "next_state": "4"
+    },
+    {
+      "state": "4",
+      "tape_symbol": "0",
+      "write_symbol": "x",
+      "move_tape": "L",
+      "next_state": "6"
+    },
+    {
+      "state": "5",
+      "tape_symbol": "x",
+      "write_symbol": "x",
+      "move_tape": "R",
+      "next_state": "5"
+    },
+    {
+      "state": "5",
+      "tape_symbol": "1",
+      "write_symbol": "x",
+      "move_tape": "L",
+      "next_state": "6"
+    },
+    {
+      "state": "6",
+      "tape_symbol": "0",
+      "write_symbol": "0",
+      "move_tape": "L",
+      "next_state": "6"
+    },
+    {
+      "state": "6",
+      "tape_symbol": "1",
+      "write_symbol": "1",
+      "move_tape": "L",
+      "next_state": "6"
+    },
+    {
+      "state": "6",
+      "tape_symbol": "x",
+      "write_symbol": "x",
+      "move_tape": "L",
+      "next_state": "6"
+    },
+    {
+      "state": "6",
+      "tape_symbol": "#",
+      "write_symbol": "#",
+      "move_tape": "L",
+      "next_state": "7"
+    },
+    {
+      "state": "7",
+      "tape_symbol": "0",
+      "write_symbol": "0",
+      "move_tape": "L",
+      "next_state": "7"
+    },
+    {
+      "state": "7",
+      "tape_symbol": "1",
+      "write_symbol": "1",
+      "move_tape": "L",
+      "next_state": "7"
+    },
+    {
+      "state": "7",
+      "tape_symbol": "x",
+      "write_symbol": "x",
+      "move_tape": "R",
+      "next_state": "1"
+    },
+    {
+      "state": "8",
+      "tape_symbol": "x",
+      "write_symbol": "x",
+      "move_tape": "R",
+      "next_state": "8"
+    },
+    {
+      "state": "8",
+      "tape_symbol": "_",
+      "write_symbol": "_",
+      "move_tape": "R",
+      "next_state": "ACCEPT"
+    }
+  ],
+  "initial_state": "1",
+  "final_states": [
+    "ACCEPT"
+  ]
+}

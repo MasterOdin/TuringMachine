@@ -1,0 +1,25 @@
+{
+  "states": [
+
+  ],
+  "alphabet": [
+
+  ],
+  "blank": "",
+  "input_symbols": [
+
+  ],
+  "transition_functions": [
+    {
+      "state": "",
+      "tape_symbol": "",
+      "write_symbol": "",
+      "move_tape": "",
+      "next_state": ""
+    }
+  ],
+  "initial_state": "",
+  "final_states": [
+
+  ]
+}
